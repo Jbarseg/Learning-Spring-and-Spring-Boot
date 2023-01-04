@@ -69,4 +69,81 @@ context.close();
 
 ```
 
-**Important: If we want to manage other object, we dont have to create another object and call the method that we want, the only thing that we have to do is to change the object or the class that we want to manage in our XML File or [applicationContext](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/applicationContext.xml) file.**
+**Important: If we want to manage other object, we dont have to create another object and call the method that we want, the only thing that we have to do is to change the object or the class that we want to manage in our XML file or [applicationContext](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/applicationContext.xml) file.**
+
+## Dependency Injection
+
+**What is Dependency Injection (D.I)?** It is a design pattern that is often used in conjunction with IoC. Dependency injection involves creating objects in such a way that the amount of code required to create and configure those objects is minimized. Instead of a class creating its own dependencies, they are "injected" from the outside. _In short, dependency injection is a way to simplify the creation and configuration of objects in an application, allowing classes to focus on their business logic instead of worrying about creating their dependencies._
+
+**How to create a Dependency Injection with Constructors:**
+
+**_1.Create the dependency class and interface_**
+
+```
+
+package com.jbarseg.IoC;
+
+public interface ReportsCreator {
+    //Create the dependency interface for the Dependency Injection
+
+    public String getReport();
+
+}
+
+```
+```
+
+package com.jbarseg.IoC;
+
+public class Reports implements ReportsCreator{
+    //Create the dependency class for the Dependency Injection
+
+    @Override
+    public String getReport() {
+        // TODO Auto-generated method stub
+        return "This is the presentation of the report";
+    }
+
+}
+
+```
+
+**_2.Create the constructor of the class to inject the dependency_**
+
+```
+
+private ReportsCreator reportsCreator;
+    //Creation of the constructor of the class to inject the dependency
+    public ManagerEmployee (ReportsCreator reportsCreator){
+        this.reportsCreator = reportsCreator;
+    }
+
+```
+
+**_3.Configure dependency injection in our XML file_**
+
+```
+
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="
+    http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.1.xsd
+">
+<!--Container or Bean created for the Inversion of Control-->
+<bean id="myEmployee" class="com.jbarseg.IoC.ManagerEmployee">
+
+<!--Container or Bean created for the Dependency Injection-->
+<bean id="myReport" class="com.jbarseg.IoC.Reports"></bean>
+
+<constructor-arg ref ="myReport"> </constructor-arg>
+
+
+</bean>
+</beans>
+
+```
