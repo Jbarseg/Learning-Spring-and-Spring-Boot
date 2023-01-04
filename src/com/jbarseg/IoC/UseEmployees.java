@@ -14,7 +14,11 @@ public class UseEmployees {
 
         //We load the XML file
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-        //Ask Bean
+        //Ask for the Bean
         Employees Jonathan = context.getBean("myEmployee", Employees.class);
+        //Use the Bean
+        System.out.println(Jonathan.getTasks);
+        //Close the XML File
+        context.close();
     }
 }

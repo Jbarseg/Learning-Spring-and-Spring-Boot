@@ -11,6 +11,4 @@
 
 <bean id="myEmployee" class="com.jbarseg.IoC.ManagerEmployee">
 </bean>
-
-
 </beans>
