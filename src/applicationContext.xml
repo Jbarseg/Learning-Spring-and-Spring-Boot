@@ -24,6 +24,9 @@
 <bean id="mySecretaryEmployee" class = "com.jbarseg.IoC.SecretaryEmployee" lazy-init="true">
 
     <property name = "reportsCreator" ref="myReport"></property>
+    <!--Properties created for the Dependency Injection with Fields-->
+    <property name = "email" value="jhonnyd08@kopsy.com"></property>
+    <property name = "businessName" value="Kopsy"></property>
 
 </bean>
 

@@ -207,3 +207,58 @@ private ReportsCreator reportsCreator;
 </bean>
 
 ```
+**How to create a Dependency Injection with Fields:**
+
+**_1.Create the fields or variables that you want to control_**
+
+```
+
+public class SecretaryEmployee implements Employees {
+
+    //We are going to use this class to explain the second method to own to do the Dependency Injection
+    //We have to create the setter of the variable reportsCreator
+
+    private String email;
+    private String businessName;
+
+}
+
+```
+
+**_2.Create the getters and setters of this fields or variables_**
+
+```
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getBusinessName() {
+        return businessName;
+    }
+
+    public void setBusinessName(String businessName) {
+        this.businessName = businessName;
+    }
+
+
+```
+
+**_3.Add more properties to your XML Bean_**
+
+```
+
+<bean id="mySecretaryEmployee" class = "com.jbarseg.IoC.SecretaryEmployee" lazy-init="true">
+
+    <property name = "reportsCreator" ref="myReport"></property>
+    <!--Properties created for the Dependency Injection with Fields-->
+    <property name = "email" value="jhonnyd08@kopsy.com"></property>
+    <property name = "businessName" value="Kopsy"></property>
+
+</bean>
+
+```
