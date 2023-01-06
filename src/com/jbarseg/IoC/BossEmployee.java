@@ -6,4 +6,10 @@ public class BossEmployee implements Employees{
         return "Managed issues related to my section employees";
     }
 
+    @Override
+    public String getReport() {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
 }

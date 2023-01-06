@@ -9,13 +9,22 @@
     http://www.springframework.org/schema/context/spring-context-3.1.xsd
 ">
 <!--Container or Bean created for the Inversion of Control-->
-<bean id="myEmployee" class="com.jbarseg.IoC.ManagerEmployee">
-
-<!--Container or Bean created for the Dependency Injection-->
 <bean id="myReport" class="com.jbarseg.IoC.Reports"></bean>
 
-<constructor-arg ref ="myReport"> </constructor-arg>
+<!--Container or Bean created for the Dependency Injection with Constructors-->
 
+<bean id="myEmployee" class="com.jbarseg.IoC.ManagerEmployee" lazy-init="true">
+
+    <constructor-arg ref ="myReport"> </constructor-arg>
 
 </bean>
+
+<!--Container or Bean created for the Dependency Injection with Setters-->
+
+<bean id="mySecretaryEmployee" class = "com.jbarseg.IoC.SecretaryEmployee" lazy-init="true">
+
+    <property name = "reportsCreator" ref="myReport"></property>
+
+</bean>
+
 </beans>

@@ -108,7 +108,7 @@ public class Reports implements ReportsCreator{
 
 ```
 
-**_2.Create the constructor of the class to inject the dependency_**
+**_2.Create the constructor of the class we want to inject the dependency._**
 
 ```
 
@@ -145,5 +145,65 @@ private ReportsCreator reportsCreator;
 
 </bean>
 </beans>
+
+```
+
+**How to create a Dependency Injection with Setters:**
+
+**_1.Create the dependency class and interface_**
+
+```
+
+package com.jbarseg.IoC;
+
+public interface ReportsCreator {
+    //Create the dependency interface for the Dependency Injection
+
+    public String getReport();
+
+}
+
+```
+```
+
+package com.jbarseg.IoC;
+
+public class Reports implements ReportsCreator{
+    //Create the dependency class for the Dependency Injection
+
+    @Override
+    public String getReport() {
+        // TODO Auto-generated method stub
+        return "This is the presentation of the report";
+    }
+
+}
+
+```
+
+**_2.Create the setter of the class we want to inject the dependency._**
+
+```
+
+private ReportsCreator reportsCreator;
+
+    public void setReportsCreator(ReportsCreator reportsCreator) {
+        this.reportsCreator = reportsCreator;
+    }
+
+
+```
+
+**_3.Configure dependency injection in our XML file_**
+
+```
+
+<!--Container or Bean created for the Dependency Injection with Setters-->
+
+<bean id="mySecretaryEmployee" class = "com.jbarseg.IoC.SecretaryEmployee" lazy-init="true">
+
+    <property name = "reportsCreator" ref="myReport"></property>
+
+</bean>
 
 ```

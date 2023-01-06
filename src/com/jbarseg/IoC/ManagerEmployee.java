@@ -8,6 +8,11 @@ public class ManagerEmployee implements Employees {
         this.reportsCreator = reportsCreator;
     }
 
+    public ManagerEmployee() {
+    }
+
+
+
     @Override
     public String getTasks() {
         // TODO Auto-generated method stub
