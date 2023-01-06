@@ -11,7 +11,13 @@ public class ManagerEmployee implements Employees {
     public ManagerEmployee() {
     }
 
+    public void initMethod(){
+        System.out.println("Init Method");
+    }
 
+    public void destroyMethod(){
+        System.out.println("Destroy Method");
+    }
 
     @Override
     public String getTasks() {
