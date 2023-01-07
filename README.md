@@ -8,10 +8,10 @@
 
 ## Learning how to use Spring
 
-- ## [What is a Bean?](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/english/README-CREATING-A-NEW-DATABASE.en.md)
+- ## [What is a Bean?](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README-BEAN.en.md)
 
-- ## [Inversion of Control (IoC)](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/english/README-TABLES.en.md)
+- ## [Inversion of Control (IoC)](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README_INVERSION_OF_CONTROL.en.md)
 
-- ## [Dependency Injection (D.I)](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/english/README-TYPES-OF-DATA.en.md)
+- ## [Dependency Injection (D.I)](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README_DEPENDENCY_INJECTION.en.md)
 
-- ## [Singleton and Prototype](https://github.com/Jbarseg/Learning-Java-JDBC-and-MySQL/blob/master/index/english/README-DML-SENTENCES.en.md)
+- ## [Singleton and Prototype](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README-SINGLETON-AND-PROTOTYPE.en.md)
