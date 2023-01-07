@@ -15,3 +15,5 @@
 - ## [Dependency Injection (D.I)](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README_DEPENDENCY_INJECTION.en.md)
 
 - ## [Singleton and Prototype](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README-SINGLETON-AND-PROTOTYPE.en.md)
+
+- ## [Annotations]()
