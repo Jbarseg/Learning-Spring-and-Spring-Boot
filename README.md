@@ -8,7 +8,7 @@
 
 ## Learning how to use Spring
 
-- ## [What is a Bean?](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README-BEAN.en.md)
+- ## [Beans](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README-BEAN.en.md)
 
 - ## [Inversion of Control (IoC)](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README_INVERSION_OF_CONTROL.en.md)
 
