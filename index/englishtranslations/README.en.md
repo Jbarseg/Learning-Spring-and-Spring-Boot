@@ -6,6 +6,7 @@
 
 # Index
 
+
 ## Learning how to use Spring
 
 - ## [Beans](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README-BEAN.en.md)

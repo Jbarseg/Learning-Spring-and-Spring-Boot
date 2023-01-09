@@ -66,7 +66,7 @@ private ReportsCreator reportsCreator;
 
 <!--Container or Bean created for the Dependency Injection with Constructors-->
 
-<bean id="myEmployee" class="com.jbarseg.IoC.ManagerEmployee" lazy-init="true">
+<bean id="myEmployee" class="com.jbarseg.IoC.ManagerEmployee">
 
     <constructor-arg ref ="myReport"> </constructor-arg>
 
@@ -127,7 +127,7 @@ private ReportsCreator reportsCreator;
 
 <!--Container or Bean created for the Dependency Injection with Setters-->
 
-<bean id="mySecretaryEmployee" class = "com.jbarseg.IoC.SecretaryEmployee" lazy-init="true">
+<bean id="mySecretaryEmployee" class="com.jbarseg.IoC.SecretaryEmployee">
 
     <property name = "reportsCreator" ref="myReport"></property>
 
