@@ -2,14 +2,8 @@
 
 ## Learning Web
 
-- ## [Creating our first dynamic web application]()
+- ## [Creating our first dynamic web application](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/WEB-APPLICATION-INDEX/README-STARTING-WITH-MVC.en.md)
 
-- ## [Java Dynamic Web Application Exceptions Solutions)]()
+- ## [Controller](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/WEB-APPLICATION-INDEX/README-CONTROLLER.en.md)
 
-- ## [Controller]()
-
-- ## []()
-
-- ## []()
-
-- ## []()
+- ## [Java Dynamic Web Application Exceptions Solutions](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/WEB-APPLICATION-INDEX/README-MVC-EXCEPTIONS.en.md)
