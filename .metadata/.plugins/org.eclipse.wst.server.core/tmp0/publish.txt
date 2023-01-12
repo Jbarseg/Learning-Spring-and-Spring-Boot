@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Thu Jan 12 12:25:00 CST 2023
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\ADMIN\\eclipse-workspace\\Starting\ with\ Web\ Applications\ MVC\\src\\main\\webapp\\WEB-INF\\lib\\spring-web-5.3.9.jar=WEB-INF/lib/spring-web-5.3.9.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\ADMIN\\eclipse-workspace\\Starting\ with\ Web\ Applications\ MVC\\src\\main\\webapp\\WEB-INF\\lib\\spring-web-5.3.9-sources.jar=WEB-INF/lib/spring-web-5.3.9-sources.jar
