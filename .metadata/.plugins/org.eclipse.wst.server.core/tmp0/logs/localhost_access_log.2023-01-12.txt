@@ -1,3 +1,16 @@
 127.0.0.1 - - [12/Jan/2023:12:21:25 -0600] "GET / HTTP/1.1" 404 687
 127.0.0.1 - - [12/Jan/2023:12:21:27 -0600] "GET /Starting_with_Web_Applications_MVC/ HTTP/1.1" 200 177
 127.0.0.1 - - [12/Jan/2023:12:21:36 -0600] "GET /favicon.ico HTTP/1.1" 404 698
+127.0.0.1 - - [12/Jan/2023:12:46:36 -0600] "GET / HTTP/1.1" 404 687
+127.0.0.1 - - [12/Jan/2023:12:46:36 -0600] "GET /Starting_with_Web_Applications_MVC/ HTTP/1.1" 404 610
+127.0.0.1 - - [12/Jan/2023:12:49:14 -0600] "GET / HTTP/1.1" 404 687
+127.0.0.1 - - [12/Jan/2023:12:49:14 -0600] "GET /Starting_with_Web_Applications_MVC/ HTTP/1.1" 404 610
+127.0.0.1 - - [12/Jan/2023:12:52:46 -0600] "GET /Starting_with_Web_Applications_MVC/ HTTP/1.1" 404 610
+127.0.0.1 - - [12/Jan/2023:12:54:32 -0600] "GET / HTTP/1.1" 404 687
+127.0.0.1 - - [12/Jan/2023:12:54:34 -0600] "GET /Starting_with_Web_Applications_MVC/ HTTP/1.1" 200 220
+127.0.0.1 - - [12/Jan/2023:12:54:38 -0600] "GET /Starting_with_Web_Applications_MVC/showForm HTTP/1.1" 200 255
+127.0.0.1 - - [12/Jan/2023:12:54:45 -0600] "GET /Starting_with_Web_Applications_MVC/processForm? HTTP/1.1" 200 187
+127.0.0.1 - - [12/Jan/2023:17:19:16 -0600] "GET /Starting_with_Web_Applications_MVC/processForm? HTTP/1.1" 200 187
+127.0.0.1 - - [12/Jan/2023:17:19:22 -0600] "GET /Starting_with_Web_Applications_MVC/showForm HTTP/1.1" 200 255
+127.0.0.1 - - [12/Jan/2023:17:19:45 -0600] "GET /Starting_with_Web_Applications_MVC/showForm HTTP/1.1" 200 255
+127.0.0.1 - - [12/Jan/2023:17:19:53 -0600] "GET /Starting_with_Web_Applications_MVC/processForm? HTTP/1.1" 200 187

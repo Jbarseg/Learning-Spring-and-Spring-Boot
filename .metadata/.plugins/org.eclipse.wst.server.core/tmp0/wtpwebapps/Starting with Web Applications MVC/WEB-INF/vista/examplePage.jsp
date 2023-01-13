@@ -7,7 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
+
 <h1>Example Page using Spring and MVC</h1>
+
+<a href="showForm">Go to the Form</a>
 
 </body>
 </html>
