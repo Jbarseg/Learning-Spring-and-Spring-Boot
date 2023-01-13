@@ -6,4 +6,4 @@
 
 - ## [Controller](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/WEB-APPLICATION-INDEX/README-CONTROLLER.en.md)
 
-- ## [Java Dynamic Web Application Exceptions Solutions](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/WEB-APPLICATION-INDEX/README-MVC-EXCEPTIONS.en.md)
+- ## [Some Tomcat Exceptions Solutions](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/WEB-APPLICATION-INDEX/README-MVC-EXCEPTIONS.en.md)

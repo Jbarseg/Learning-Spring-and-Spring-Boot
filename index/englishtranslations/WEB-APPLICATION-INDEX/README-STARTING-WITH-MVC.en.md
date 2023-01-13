@@ -6,5 +6,17 @@
 
 **_1.Download Eclipse with Java EE_**
 
+You can find the information of how to download here: https://www.eclipse.org/downloads/packages/
 
+**_2.Create a new Dynamic Web Project_**
 
+Click on File --> New --> Dynamic Web Project
+
+**_3.Add your XML files and the necessary Servlet libraries_**
+
+- [web.xml and spring_mvc_servlet.xml](www.pildorasinformaticas.es/archivos/spring/video27_1.zip) / Add this files in the next folder: src -> main -> webapp -> WEB-INF
+- [Javax Servlet Libraries](www.pildorasinformaticas.es/archivos/spring/video27_2.zip) / Add this files in the next folder: src -> main -> webapp -> WEB-INF -> lib
+
+**Credits to the youtube channel pildorasinformaticas whose links belong.**
+
+Also create a view folder in the same WEB-INF folder, this to create your JSP views
