@@ -10,5 +10,5 @@ public class FinancialReportTermII implements FinancialReportCreation {
         // TODO Auto-generated method stub
         return "Presentation of Catastrophic Financial Report for Quarter 2";
     }
-    
+
 }

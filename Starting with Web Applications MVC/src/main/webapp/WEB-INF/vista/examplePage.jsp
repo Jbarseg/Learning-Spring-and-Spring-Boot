@@ -10,7 +10,7 @@
 
 <h1>Example Page using Spring and MVC</h1>
 
-<a href="showForm">Go to the Form</a>
+<a href="principal/showForm">Go to the Form</a>
 
 </body>
 </html>
