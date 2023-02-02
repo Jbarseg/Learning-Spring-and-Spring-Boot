@@ -4,9 +4,10 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "clients")
-public class Clients {
+public class Client {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // Para indicar que es la clave principal
     @Column(name="idClients")
     private int idclient;
     @Column(name="name")
@@ -17,12 +18,12 @@ public class Clients {
     private String location;
 
 
-    public Clients(String name, String lastname, String location) {
+    public Client(String name, String lastname, String location) {
         this.name = name;
         this.lastname = lastname;
         this.location = location;
     }
-    public Clients() {
+    public Client() {
     }
 
     public int getIdclient() {
