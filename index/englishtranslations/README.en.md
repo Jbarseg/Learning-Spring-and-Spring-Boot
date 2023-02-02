@@ -6,7 +6,6 @@
 
 # Index
 
-
 ## Learning how to use Spring
 
 - ## [Beans](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README-BEAN.en.md)
@@ -20,3 +19,5 @@
 - ## [Annotations](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README-ANNOTATIONS.en.md)
 
 - ## [Web Applications with MVC](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README-WEB-APPLICATIONS-WITH-MVC.en.md)
+
+- ## [Hibernate](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README-HIBERNATE.en.md)

@@ -17,3 +17,7 @@
 - ## [Singleton y Prototype](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README-SINGLETON-AND-PROTOTYPE.en.md)
 
 - ## [Anotaciones](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README-ANNOTATIONS.en.md)
+
+- ## [Aplication Web con MVC](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README-WEB-APPLICATIONS-WITH-MVC.en.md)
+
+- ## [Hibernate](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README-HIBERNATE.en.md)

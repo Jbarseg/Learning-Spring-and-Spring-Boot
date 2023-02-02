@@ -14,3 +14,5 @@ Web Applications Annotations:
 - **`@RequestMapping`**: RequestMapping annotation is used to map web requests onto specific handler classes and/or handler methods.
 - **`@RequestParam`**: Is used to read the form data and bind it automatically to the parameter present in the provided method.
 
+
+
