@@ -4,5 +4,5 @@
 
 ### Dependency Injection (D.I)
 
-- ## [Dependency Injection with XML Files](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README-BEAN.en.md)
-- ## [Dependency Injection with Annotations](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README_INVERSION_OF_CONTROL.en.md)
+- ## [Dependency Injection with XML Files](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/DEPENDENCY-INJECTION-INDEX/README-DI-WITH-XMLFILES.en.md)
+- ## [Dependency Injection with Annotations](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/DEPENDENCY-INJECTION-INDEX/README-DI-WITH-ANNOTATIONS.en.md)
