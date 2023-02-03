@@ -40,7 +40,7 @@ public class QueryClients {
             session.close();
 
         } finally {
-            
+
         }
     }
 }
