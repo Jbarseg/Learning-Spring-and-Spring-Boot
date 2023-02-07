@@ -3,12 +3,12 @@ package com.jbarseg.hibernateConnection;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "clients")
+@Table(name = "client")
 public class Client {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) // Para indicar que es la clave principal
-    @Column(name="idClients")
+    @Column(name="id")
     private int idclient;
     @Column(name="name")
     private String name;
@@ -16,6 +16,10 @@ public class Client {
     private String lastname;
     @Column(name="location")
     private String location;
+
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "id")
+    private ClientDetails clientDetails;
 
 
     public Client(String name, String lastname, String location) {

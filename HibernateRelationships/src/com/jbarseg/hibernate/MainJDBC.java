@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class MainJDBC {
     public static void main(String[] args) {
 
-        final String JDBC_URL = "jdbc:mysql://localhost:3306/hibernate?useSSL=false";
+        final String JDBC_URL = "jdbc:mysql://localhost:3306/databaserelationships?useSSL=false";
         final String JDBC_USER = "root";
         final String JDBC_PASSWORD = "admin";
 
