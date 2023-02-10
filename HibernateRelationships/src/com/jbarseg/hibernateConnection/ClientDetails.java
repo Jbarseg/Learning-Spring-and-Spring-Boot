@@ -17,6 +17,10 @@ public class ClientDetails {
     @Column(name="comments")
     private String comments;
 
+    @OneToOne(mappedBy = "clientDetails", cascade = CascadeType.ALL)
+    @JoinColumn(name = "id")
+    private Client client;
+
 
     public ClientDetails(String web, String phone, String comments) {
         this.web = web;
@@ -53,6 +57,14 @@ public class ClientDetails {
 
     public void setComments(String comments) {
         this.comments = comments;
+    }
+
+    public Client getClient() {
+        return client;
+    }
+
+    public void setClient(Client client) {
+        this.client = client;
     }
 
     @Override

@@ -51,6 +51,13 @@ public class Client {
     public void setLocation(String location) {
         this.location = location;
     }
+    
+    public ClientDetails getClientDetails() {
+        return clientDetails;
+    }
+    public void setClientDetails(ClientDetails clientDetails) {
+        this.clientDetails = clientDetails;
+    }
     @Override
     public String toString() {
         return "Clients [idclient=" + idclient + ", name=" + name + ", lastname=" + lastname + ", location=" + location
