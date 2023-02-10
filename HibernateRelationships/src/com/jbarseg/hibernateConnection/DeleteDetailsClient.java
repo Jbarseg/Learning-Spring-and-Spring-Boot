@@ -16,10 +16,10 @@ public class DeleteDetailsClient {
         try {
             //Associate our databases
             mySession.beginTransaction();
-            Client client = mySession.get(Client.class, 2);
+            ClientDetails clientDetails = mySession.get(ClientDetails.class, 2);
 
-            if(client != null){
-                mySession.delete(client);
+            if(clientDetails != null){
+                mySession.delete(clientDetails);
             }
 
             mySession.getTransaction().commit();

@@ -17,6 +17,7 @@ public class ClientDetails {
     @Column(name="comments")
     private String comments;
 
+    // If i dont want to do CRUD to both Databases at the same time, what we can do is to change the CascadeType.all and to delete the Foreign Key
     @OneToOne(mappedBy = "clientDetails", cascade = CascadeType.ALL)
     @JoinColumn(name = "id")
     private Client client;
