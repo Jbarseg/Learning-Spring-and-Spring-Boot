@@ -13,7 +13,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "order")
+@Table(name = "clientorder")
 public class Order {
 
     @Id
@@ -28,6 +28,9 @@ public class Order {
     @ManyToOne(cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.DETACH, CascadeType.REFRESH})
     @JoinColumn(name="clientid")
     private Client client;
+
+    public Order() {
+    }
 
     public Order(Date date) {
         this.date = date;
