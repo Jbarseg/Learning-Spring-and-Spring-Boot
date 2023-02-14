@@ -21,3 +21,7 @@
 - ## [Web Applications with MVC](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README-WEB-APPLICATIONS-WITH-MVC.en.md)
 
 - ## [Hibernate](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README-HIBERNATE.en.md)
+
+- ## [AOP]()
+
+- ## [Security]()
