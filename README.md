@@ -8,23 +8,25 @@
 
 ## Learning how to use Spring
 
-- ## [Beans](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README-BEAN.en.md)
+- ## [Beans (Spring Core)](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README-BEAN.en.md)
 
-- ## [Inversion of Control (IoC)](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README_INVERSION_OF_CONTROL.en.md)
+- ## [Inversion of Control (IoC - Spring Core)](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README_INVERSION_OF_CONTROL.en.md)
 
-- ## [Dependency Injection (D.I)](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README_DEPENDENCY_INJECTION.en.md)
+- ## [Dependency Injection (D.I -  Spring Core)](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README_DEPENDENCY_INJECTION.en.md)
 
-- ## [Singleton and Prototype](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README-SINGLETON-AND-PROTOTYPE.en.md)
+- ## [Singleton and Prototype (Spring Core)](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README-SINGLETON-AND-PROTOTYPE.en.md)
 
-- ## [Annotations](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README-ANNOTATIONS.en.md)
+- ## [Annotations (Spring Core)](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README-ANNOTATIONS.en.md)
 
-- ## [Web Applications with MVC](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README-WEB-APPLICATIONS-WITH-MVC.en.md)
+- ## [Web Applications with MVC (Spring Web)](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README-WEB-APPLICATIONS-WITH-MVC.en.md)
 
-- ## [Hibernate](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README-HIBERNATE.en.md)
+- ## [Hibernate (Spring ORM)](https://github.com/Jbarseg/Learning-Spring-and-Spring-Boot/blob/master/index/englishtranslations/README-HIBERNATE.en.md)
 
-- ## [AOP]()
+- ## [Spring AOP]()
 
-- ## [Security]()
+- ## [Security (Spring JWT)]()
 
 - ## [Spring Boot]()
+
+# Spring vs Spring Boot
 
