@@ -9,7 +9,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name="productos")
-public class Productos {
+public class Product {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -28,10 +28,9 @@ public class Productos {
     @Column(name = "estado")
     private Boolean status;
 
-    public Productos() {
+    public Product() {
     }
 
-    
 
     public int getIdProduct() {
         return idProduct;
