@@ -1,12 +1,16 @@
 package com.github.jbarseg.persistence.entity;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 @Entity
@@ -27,6 +31,14 @@ public class Purchase {
     private String comment;
     @Column(name = "estado")
     private Boolean status;
+
+    @ManyToOne
+    @JoinColumn(name = "id_cliente", insertable = false, updatable = false)
+    private Client client;
+
+    @OneToMany(mappedBy = "producto")
+    private List<Purchase> purchases;
+
     public int getIdPurchase() {
         return idPurchase;
     }

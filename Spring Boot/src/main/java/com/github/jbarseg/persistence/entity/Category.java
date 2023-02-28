@@ -1,10 +1,13 @@
 package com.github.jbarseg.persistence.entity;
 
+import java.util.List;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 @Entity
@@ -19,6 +22,9 @@ public class Category {
     private String description;
     @Column(name = "estado")
     private Boolean status;
+
+    @OneToMany(mappedBy = "categoria")
+    private List<Product> products;
 
     public int getIdCategory() {
         return idCategory;

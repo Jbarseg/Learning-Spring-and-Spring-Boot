@@ -1,8 +1,12 @@
 package com.github.jbarseg.persistence.entity;
 
+import org.springframework.web.servlet.FlashMapManager;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.EmbeddedId;
 import jakarta.persistence.Entity;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 
 @Entity
@@ -18,6 +22,15 @@ public class ProductPurchase {
     private Double total;
     @Column(name = "estado")
     private Boolean status;
+
+    @ManyToOne
+    @JoinColumn(name = "id_compra", insertable = false, updatable = false)
+    private Purchase purchase;
+
+    @ManyToOne
+    @JoinColumn(name = "id_producto", insertable = false, updatable = false)
+    Product product;
+
     public ProductPurchasePK getId() {
         return id;
     }
