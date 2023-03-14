@@ -21,7 +21,7 @@ public class Purchase {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_compra")
     private int idPurchase;
-    @Column(name = "id_client")
+    @Column(name = "id_cliente")
     private int idClient;
     @Column(name = "fecha")
     private LocalDateTime date;
@@ -36,45 +36,106 @@ public class Purchase {
     @JoinColumn(name = "id_cliente", insertable = false, updatable = false)
     private Client client;
 
-    @OneToMany(mappedBy = "producto")
-    private List<Purchase> purchases;
+    @OneToMany(mappedBy = "purchase")
+    private List<ProductPurchase> products;
+
+    
 
     public int getIdPurchase() {
         return idPurchase;
     }
+
+
+
     public void setIdPurchase(int idPurchase) {
         this.idPurchase = idPurchase;
     }
+
+
+
     public int getIdClient() {
         return idClient;
     }
+
+
+
     public void setIdClient(int idClient) {
         this.idClient = idClient;
     }
+
+
+
     public LocalDateTime getDate() {
         return date;
     }
+
+
+
     public void setDate(LocalDateTime date) {
         this.date = date;
     }
+
+
+
     public String getPaymentMethod() {
         return paymentMethod;
     }
+
+
+
     public void setPaymentMethod(String paymentMethod) {
         this.paymentMethod = paymentMethod;
     }
+
+
+
     public String getComment() {
         return comment;
     }
+
+
+
     public void setComment(String comment) {
         this.comment = comment;
     }
+
+
+
     public Boolean getStatus() {
         return status;
     }
+
+
+
     public void setStatus(Boolean status) {
         this.status = status;
     }
+
+
+
+    public Client getClient() {
+        return client;
+    }
+
+
+
+    public void setClient(Client client) {
+        this.client = client;
+    }
+
+
+
+    public List<ProductPurchase> getProducts() {
+        return products;
+    }
+
+
+
+    public void setProducts(List<ProductPurchase> products) {
+        this.products = products;
+    }
+
+
 
     @Override
     public String toString() {

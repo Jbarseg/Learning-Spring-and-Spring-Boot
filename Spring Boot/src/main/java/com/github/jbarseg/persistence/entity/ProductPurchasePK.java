@@ -2,14 +2,28 @@ package com.github.jbarseg.persistence.entity;
 
 import java.io.Serializable;
 
-import org.hibernate.validator.constraints.CodePointLength;
-
 import jakarta.persistence.Column;
+import jakarta.persistence.Embeddable;
 
+@Embeddable
 public class ProductPurchasePK implements Serializable {
 
     @Column(name = "id_compra")
-    private int idPurchase;
+    private Integer idPurchase;
     @Column(name = "id_producto")
-    private int idProduct;
+    private Integer idProduct;
+
+    public Integer getIdPurchase() {
+        return idPurchase;
+    }
+    public void setIdPurchase(Integer idPurchase) {
+        this.idPurchase = idPurchase;
+    }
+    public Integer getIdProduct() {
+        return idProduct;
+    }
+    public void setIdProduct(Integer idProduct) {
+        this.idProduct = idProduct;
+    }
+
 }

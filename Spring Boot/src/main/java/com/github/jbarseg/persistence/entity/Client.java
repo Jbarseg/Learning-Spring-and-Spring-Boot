@@ -29,7 +29,7 @@ public class Client {
     @Column(name = "correo_electronico")
     private String email;
 
-    @OneToMany(mappedBy = "cliente")
+    @OneToMany(mappedBy = "client")
     private List<Purchase> purchases;
 
     public int getId() {

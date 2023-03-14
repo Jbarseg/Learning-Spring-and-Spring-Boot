@@ -1,7 +1,5 @@
 package com.github.jbarseg.persistence.entity;
 
-import org.springframework.web.servlet.FlashMapManager;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.EmbeddedId;
 import jakarta.persistence.Entity;
@@ -29,7 +27,7 @@ public class ProductPurchase {
 
     @ManyToOne
     @JoinColumn(name = "id_producto", insertable = false, updatable = false)
-    Product product;
+    private Product product;
 
     public ProductPurchasePK getId() {
         return id;
@@ -54,6 +52,19 @@ public class ProductPurchase {
     }
     public void setStatus(Boolean status) {
         this.status = status;
+    }
+
+    public Purchase getPurchase() {
+        return purchase;
+    }
+    public void setPurchase(Purchase purchase) {
+        this.purchase = purchase;
+    }
+    public Product getProduct() {
+        return product;
+    }
+    public void setProduct(Product product) {
+        this.product = product;
     }
     @Override
     public String toString() {

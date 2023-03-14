@@ -1,16 +1,9 @@
 package com.github.jbarseg.persistence.entity;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 @Entity
-@Table(name="productos")
+@Table(name = "productos")
 public class Product {
 
     @Id
@@ -37,7 +30,6 @@ public class Product {
     public Product() {
     }
 
-
     public int getIdProduct() {
         return idProduct;
     }
@@ -46,53 +38,106 @@ public class Product {
         this.idProduct = idProduct;
     }
 
+
+
+
     public int getIdCategory() {
         return idCategory;
     }
+
+
+
 
     public void setIdCategory(int idCategory) {
         this.idCategory = idCategory;
     }
 
+
+
+
     public int getStock() {
         return stock;
     }
+
+
+
 
     public void setStock(int stock) {
         this.stock = stock;
     }
 
+
+
+
     public Double getSalePrice() {
         return salePrice;
     }
+
+
+
 
     public void setSalePrice(Double salePrice) {
         this.salePrice = salePrice;
     }
 
+
+
+
     public String getBarCode() {
         return barCode;
     }
+
+
+
 
     public void setBarCode(String barCode) {
         this.barCode = barCode;
     }
 
+
+
+
     public String getName() {
         return name;
     }
+
+
+
 
     public void setName(String name) {
         this.name = name;
     }
 
+
+
+
     public Boolean getStatus() {
         return status;
     }
 
+
+
+
     public void setStatus(Boolean status) {
         this.status = status;
     }
+
+
+
+
+    public Category getCategory() {
+        return category;
+    }
+
+
+
+
+    public void setCategory(Category category) {
+        this.category = category;
+    }
+
+
+
 
     @Override
     public String toString() {
